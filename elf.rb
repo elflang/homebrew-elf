@@ -1,4 +1,4 @@
-class Lightproxy < Formula
+class Elf < Formula
   desc "A self-hosted Lisp for Lua and JavaScript"
   homepage "https://github.com/elflang/elf"
   url "https://raw.githubusercontent.com/elflang/homebrew-elf/master/release/elf-update.tar.gz"
