@@ -8,6 +8,7 @@ class Elf < Formula
 
   def install
     system "bin/elf-update"
+    prefix.install "elf"
     bin.install_symlink "bin/elf"
   end
 end
