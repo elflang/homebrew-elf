@@ -7,7 +7,7 @@ class Elf < Formula
   bottle :unneeded
 
   def install
-    system "bin/elf-update"
-    bin.install_symlink "bin/elf"
+    system "elf-update"
+    bin.install_symlink "elf"
   end
 end
