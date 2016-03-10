@@ -7,6 +7,7 @@ class Elf < Formula
   bottle :unneeded
 
   def install
+    system "zzz"
     system "bin/elf-update"
     prefix.install Dir["./*"]
     bin.install_symlink "bin/elf"
