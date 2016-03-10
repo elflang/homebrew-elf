@@ -7,9 +7,6 @@ class Elf < Formula
   bottle :unneeded
 
   def install
-  end
-
-  def post_install
     system "#{bin}/elf-update"
     bin.install "#{bin}/elf"
   end
