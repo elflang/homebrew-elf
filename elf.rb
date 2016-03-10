@@ -2,7 +2,7 @@ class Elf < Formula
   desc "A self-hosted Lisp for Lua and JavaScript"
   homepage "https://github.com/elflang/elf"
   url "https://raw.githubusercontent.com/elflang/homebrew-elf/master/release/elf-0.tar.gz"
-  sha256 "6508c8d0ea1f466747f181666e23fd590742f38ac00b502e9159a35e9ef6ba29"
+  sha256 "fa3567a409c4688b742426da3d7b3089487346a6dd1b389758daf40d3ad2ec52"
 
   bottle :unneeded
 
